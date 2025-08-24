@@ -1,0 +1,5 @@
+*.json 
+.vscode/
+_lib/
+**/__pycache__/
+*.bin
