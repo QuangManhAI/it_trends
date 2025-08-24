@@ -1,5 +1,4 @@
 import re
-import fasttext
 import warnings
 warnings.filterwarnings("ignore")
 
@@ -19,7 +18,7 @@ def clean_cols(df, lst: list):
 
 # Phat hien tieng anh hay viet. tao series df['language'] co gia tri la ngon ngu nhu vi-en.
 # goi model phat hien ngon ngu
-model = fasttext.load_model("lid.176.bin")
+# model = fasttext.load_model("lid.176.bin")
 
 # model dung numpy duoi 2.0 (version)
 # print(model.predict("Lương thưởng hấp dẫn, môi trường năng động")) 
